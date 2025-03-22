@@ -1,0 +1,5 @@
+[hetzner-vpc]
+144.76.183.28
+
+[hetzner-vpc:vars]
+ansible_user=ansible
