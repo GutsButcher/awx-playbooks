@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  name: Create a File
+  tasks:
+    - name: create a file, include content
+      copy: #use copy module
+        dest: "~/test.sh"
+        content: |
+          #!/bin/bash
+          echo "Hello Ansible World"
+        mode: '0755'
+

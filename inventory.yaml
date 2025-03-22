@@ -1,0 +1,5 @@
+---
+all:
+  hosts:
+    hetzner-vpc:
+      ansible_host: 144.76.183.28
